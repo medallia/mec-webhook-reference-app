@@ -1,0 +1,17 @@
+{
+  "specversion": "1.0",
+  "id": "a1b2c3d4-e5f6-4000-8000-000000000002",
+  "source": "urn:client:webhook",
+  "type": "com.medallia.survey.invitation.delivery.failed",
+  "dataschema": "https://cdn.medallia.com/cloudevents-schemas/broadcaster-webhook-invitation-update/v1.json",
+  "time": "2026-08-24T18:01:00.000Z",
+  "traceparent": "00-5d3e8bdfa2b244caae0ff5d05be4e33d-597576596e36d40e-01",
+  "data": {
+    "message_id": "1f121945-b555-4813-aeb8-dc64610cb8e9",
+    "error": {
+      "code": "DEVICE_NOT_REGISTERED",
+      "message": "No device registration found for the given contact_id",
+      "retryable": true
+    }
+  }
+}

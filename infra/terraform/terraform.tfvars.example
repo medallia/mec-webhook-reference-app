@@ -1,0 +1,9 @@
+# Per-environment Terraform settings are generated from templates and are not committed.
+#
+# See templates/configs/region/env/ for the committed templates.
+#
+# Generate config for an environment:
+#   export TF_VAR_region=us-east-1
+#   export TF_infra_env=dev
+#   export TF_VAR_fcm_service_account_json='...'
+#   ./scripts/generate-env-config.sh

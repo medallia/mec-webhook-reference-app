@@ -1,0 +1,61 @@
+# Dependencies
+node_modules/
+.pnp.*
+
+# Build outputs
+dist/
+build/
+*.zip
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+config/deploy.env
+config/ios-publish.env
+private_keys/
+mobile/ios/build/
+*.pem
+*-service-account.json
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Mobile
+mobile/.expo/
+mobile/dist/
+mobile/ios/Pods/
+mobile/ios/build/
+mobile/ios/.xcode.env.local
+mobile/android/
+*.jks
+*.p8
+*.p12
+*.mobileprovision
+*.keystore
+mobile/playstore_key.json
+mobile/google-services.json
+mobile/GoogleService-Info.plist
+mobile/ios/WebhookInvitesDemo/GoogleService-Info.plist
+mobile/web-test/
+
+# Docs (local only)
+docs/APP_STORE_PRIVACY.md
+
+# Logs and coverage
+*.log
+coverage/
+.nyc_output/
+
+# Generated per-environment Terraform config (gitignored)
+infra/terraform/configs/
+infra/terraform/*.auto.tfvars
+infra/terraform/terraform.tfvars
+infra/terraform/tfplan

@@ -1,0 +1,7 @@
+{
+  "specversion": "1.0",
+  "id": "00000000-0000-4000-8000-000000000001",
+  "source": "urn:medallia:services:broadcaster",
+  "type": "com.medallia.survey.invitation.authcheck",
+  "time": "2026-08-24T18:00:00.000Z"
+}

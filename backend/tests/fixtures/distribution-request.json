@@ -1,0 +1,34 @@
+{
+  "id": "1f121945-b555-4813-aeb8-dc64610cb8e9",
+  "specversion": "1.0",
+  "source": "urn:medallia:services:broadcaster",
+  "type": "com.medallia.survey.invitation",
+  "traceparent": "00-5d3e8bdfa2b244caae0ff5d05be4e33d-597576596e36d40e-01",
+  "time": "2026-08-24T18:00:00.000Z",
+  "datacontenttype": "application/json",
+  "dataschema": "https://cdn.medallia.com/cloudevents-schemas/broadcaster-webhook-invitation/v1.json",
+  "data": {
+    "record_type": "preview",
+    "survey_id": "survey-123",
+    "survey_url": "https://survey.example.com/?id=abc123",
+    "contact_id": "demo-user@example.com",
+    "preferred_locale": "en-US",
+    "messages": [
+      {
+        "locale": "en-US",
+        "summary": "Thanks for your visit!",
+        "details": "We would love your feedback. Would you take 2 minutes to tell us how we did?"
+      },
+      {
+        "locale": "es-US",
+        "summary": "Gracias por su visita",
+        "details": "Nos encantaria conocer su opinion."
+      }
+    ],
+    "expiration_timestamp": "2026-12-31T23:59:59.000Z",
+    "callback": "https://tenant.example.apis.medallia.com/status",
+    "additional_data": {
+      "masked_url": "https://survey.medallia.com/medallia"
+    }
+  }
+}
